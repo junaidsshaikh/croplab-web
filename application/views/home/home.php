@@ -17,12 +17,7 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/animations.css">
-	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
-	<link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
-	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<?php $this->view('innerpages/css.php');?>
 	<!--[if lt IE 9]>
 		<script src="js/vendor/html5shiv.min.js"></script>
 		<script src="js/vendor/respond.min.js"></script>
@@ -34,9 +29,9 @@
 	<!--[if lt IE 9]>
 		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
 	<![endif]-->
-	<div class="preloader">
+	<!--<div class="preloader">
 		<div class="preloader_image"></div>
-	</div>
+	</div>-->
 	<!-- search modal -->
 	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal"> <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 		<span aria-hidden="true">
@@ -65,30 +60,14 @@
 		<div id="box_wrapper">
 			<!-- template sections -->
 			<section class="page_topline ls ms table_section table_section_md">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-8 col-lg-9 text-center text-sm-left">
-							<div class="inline-content big-spacing"> <span>
-						<i class="fa fa-map-marker highlight2 rightpadding_5" aria-hidden="true"></i>
-						123 Abshire Circle, Colorado
-					</span> <span class="greylinks">
-						<i class="fa fa-pencil highlight2 rightpadding_5" aria-hidden="true"></i>
-						<a href="mailto:marijuana@example.com">marijuana@example.com</a>
-					</span> <span>
-						<i class="fa fa-clock-o highlight2 rightpadding_5" aria-hidden="true"></i>
-						Working Hours: 24/7
-					</span> </div>
-						</div>
-						<div class="col-sm-4 col-lg-3 text-center text-sm-right"> <a href="contacts.html" class="theme_button color3 block_button margin_0">Request a call back free</a> </div>
-					</div>
-				</div>
+				<?php $this->view('innerpages/header.php');?>
 			</section>
 			<header class="page_header header_white toggler_right">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 display_table">
 							<div class="header_left_logo display_table_cell"> <a href="index-2.html" class="logo logo_with_text">
-                        <img src="images/logo.png" alt="">
+                        <img src="<?php echo base_url();?>images/logo.png" alt="">
                         <span class="logo_text">
                             Canabia
                             <small>Colorado dispensary</small>
@@ -96,262 +75,7 @@
                     </a> </div>
 							<div class="header_mainmenu display_table_cell text-right">
 								<!-- main nav start -->
-								<nav class="mainmenu_wrapper">
-									<ul class="mainmenu nav sf-menu">
-										<li class="active"> <a href="index.html">Home</a>
-											<ul>
-												<li> <a href="index.html">Home</a> </li>
-												<li> <a href="index-static.html">Home static intro</a> </li>
-												<li> <a href="index-single.html">Home single page</a> </li>
-											</ul>
-										</li>
-										<li> <a href="about.html">Pages</a>
-											<ul>
-												<!-- features -->
-												<li> <a href="shortcodes_teasers.html">Shortcodes &amp; Widgets</a>
-													<ul>
-														<li> <a href="shortcodes_typography.html">Typography</a> </li>
-														<li> <a href="shortcodes_buttons.html">Buttons</a> </li>
-														<li> <a href="shortcodes_teasers.html">Teasers</a> </li>
-														<li> <a href="shortcodes_progress.html">Progress</a> </li>
-														<li> <a href="shortcodes_tabs.html">Tabs &amp; Collapse</a> </li>
-														<li> <a href="shortcodes_bootstrap.html">Bootstrap Elements</a> </li>
-														<li> <a href="shortcodes_widgets.html">Widgets</a> </li>
-														<li> <a href="shortcodes_animation.html">Animation</a> </li>
-														<li> <a href="shortcodes_icons.html">Template Icons</a> </li>
-														<li> <a href="shortcodes_socialicons.html">Social Icons</a> </li>
-													</ul>
-												</li>
-												<!-- eof features -->
-												<li> <a href="about.html">About</a> </li>
-												<li> <a href="team.html">Team</a>
-													<ul>
-														<li> <a href="team.html">Team</a> </li>
-														<li> <a href="team-single.html">Team Member</a> </li>
-													</ul>
-												</li>
-												<!-- gallery -->
-												<li> <a href="gallery-regular.html">Gallery</a>
-													<ul>
-														<!-- Gallery regular -->
-														<li> <a href="gallery-regular.html">Gallery Regular</a>
-															<ul>
-																<li> <a href="gallery-regular.html">1 column</a> </li>
-																<li> <a href="gallery-regular-2-cols.html">2 columns</a> </li>
-																<li> <a href="gallery-regular-3-cols.html">3 columns</a> </li>
-															</ul>
-														</li>
-														<!-- eof Gallery regular -->
-														<!-- Gallery full width -->
-														<li> <a href="gallery-fullwidth.html">Gallery Full Width</a>
-															<ul>
-																<li> <a href="gallery-fullwidth.html">2 column</a> </li>
-																<li> <a href="gallery-fullwidth-3-cols.html">3 columns</a> </li>
-																<li> <a href="gallery-fullwidth-4-cols.html">4 columns</a> </li>
-															</ul>
-														</li>
-														<!-- eof Gallery full width -->
-														<!-- Gallery extended -->
-														<li> <a href="gallery-extended.html">Gallery Extended</a>
-															<ul>
-																<li> <a href="gallery-extended.html">1 column</a> </li>
-																<li> <a href="gallery-extended-2-cols.html">2 columns</a> </li>
-																<li> <a href="gallery-extended-3-cols.html">3 columns</a> </li>
-															</ul>
-														</li>
-														<!-- eof Gallery extended -->
-														<!-- Gallery carousel -->
-														<li> <a href="gallery-carousel.html">Gallery Carousel</a>
-															<ul>
-																<li> <a href="gallery-carousel.html">1 column</a> </li>
-																<li> <a href="gallery-carousel-2-cols.html">2 columns</a> </li>
-																<li> <a href="gallery-carousel-3-cols.html">3 columns</a> </li>
-															</ul>
-														</li>
-														<!-- eof Gallery carousel -->
-														<!-- Gallery tile -->
-														<li> <a href="gallery-tile.html">Gallery Tile</a> </li>
-														<!-- eof Gallery tile -->
-														<!-- Gallery left sidebar -->
-														<li> <a href="gallery-left.html">Gallery Left Sidebar</a>
-															<ul>
-																<li> <a href="gallery-left.html">1 column</a> </li>
-																<li> <a href="gallery-left-2-cols.html">2 columns</a> </li>
-															</ul>
-														</li>
-														<!-- eof Gallery left sidebar -->
-														<!-- Gallery right sidebar -->
-														<li> <a href="gallery-right.html">Gallery Right Sidebar</a>
-															<ul>
-																<li> <a href="gallery-right.html">1 column</a> </li>
-																<li> <a href="gallery-right-2-cols.html">2 columns</a> </li>
-															</ul>
-														</li>
-														<!-- eof Gallery right sidebar -->
-														<!-- Gallery item -->
-														<li> <a href="gallery-single.html">Gallery Item</a>
-															<ul>
-																<li> <a href="gallery-single.html">Style 1</a> </li>
-																<li> <a href="gallery-single2.html">Style 2</a> </li>
-																<li> <a href="gallery-single3.html">Style 3</a> </li>
-															</ul>
-														</li>
-														<!-- eof Gallery item -->
-													</ul>
-												</li>
-												<!-- eof Gallery -->
-												<li> <a href="timetable.html">Timetable</a> </li>
-												<!-- events -->
-												<li> <a href="events-left.html">Events</a>
-													<ul>
-														<li> <a href="events-left.html">Left Sidebar</a> </li>
-														<li> <a href="events-right.html">Right Sidebar</a> </li>
-														<li> <a href="events-full.html">Full Width</a> </li>
-														<li> <a href="event-single-left.html">Single Event</a>
-															<ul>
-																<li> <a href="event-single-left.html">Left Sidebar</a> </li>
-																<li> <a href="event-single-right.html">Right Sidebar</a> </li>
-																<li> <a href="event-single-full.html">Full Width</a> </li>
-															</ul>
-														</li>
-													</ul>
-												</li>
-												<!-- eof events -->
-												<li> <a href="comingsoon1.html">Comingsoon</a>
-													<ul>
-														<li> <a href="comingsoon1.html">Comingsoon</a> </li>
-														<li> <a href="comingsoon2.html">Comingsoon 2</a> </li>
-													</ul>
-												</li>
-												<li> <a href="faq.html">FAQ</a>
-													<ul>
-														<li> <a href="faq.html">FAQ</a> </li>
-														<li> <a href="faq2.html">FAQ 2</a> </li>
-													</ul>
-												</li>
-												<li> <a href="404.html">404</a>
-													<ul>
-														<li> <a href="404.html">404</a> </li>
-														<li> <a href="4042.html">404 2</a> </li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<!-- eof pages -->
-										<li> <a href="technologies.html">Technologies</a>
-											<ul>
-												<li> <a href="technologies.html">Technologies</a> </li>
-												<li> <a href="technology-single.html">Single Technology</a> </li>
-											</ul>
-										</li>
-										<li> <a href="#">Features</a>
-											<div class="mega-menu">
-												<ul class="mega-menu-row">
-													<li class="mega-menu-col"> <a href="#">Headers</a>
-														<ul>
-															<li> <a href="header1.html">Header Type 1</a> </li>
-															<li> <a href="header2.html">Header Type 2</a> </li>
-															<li> <a href="header3.html">Header Type 3</a> </li>
-															<li> <a href="header4.html">Header Type 4</a> </li>
-															<li> <a href="header5.html">Header Type 5</a> </li>
-															<li> <a href="header6.html">Header Type 6</a> </li>
-														</ul>
-													</li>
-													<li class="mega-menu-col"> <a href="#">Side Menus</a>
-														<ul>
-															<li> <a href="header_side1.html">Slide Left Light</a> </li>
-															<li> <a href="header_side2.html">Slide Right Light</a> </li>
-															<li> <a href="header_side3.html">Push Left Light</a> </li>
-															<li> <a href="header_side4.html">Push Right Light</a> </li>
-															<li> <a href="header_side5.html">Slide Left Dark</a> </li>
-															<li> <a href="header_side6.html">Slide Right Dark</a> </li>
-															<li> <a href="header_side7.html">Push Left Dark</a> </li>
-															<li> <a href="header_side8.html">Push Right Dark</a> </li>
-															<li> <a href="header_side_superfish.html">Superfish Menu</a> </li>
-															<li> <a href="header_side_sticked.html">Sticked Menu</a> </li>
-														</ul>
-													</li>
-													<li class="mega-menu-col"> <a href="breadcrumbs1.html">Breadcrumbs</a>
-														<ul>
-															<li> <a href="breadcrumbs1.html">Breadcrumbs 1</a> </li>
-															<li> <a href="breadcrumbs2.html">Breadcrumbs 2</a> </li>
-															<li> <a href="breadcrumbs3.html">Breadcrumbs 3</a> </li>
-															<li> <a href="breadcrumbs4.html">Breadcrumbs 4</a> </li>
-															<li> <a href="breadcrumbs5.html">Breadcrumbs 5</a> </li>
-															<li> <a href="breadcrumbs6.html">Breadcrumbs 6</a> </li>
-														</ul>
-													</li>
-													<li class="mega-menu-col"> <a href="footer1.html">Footers</a>
-														<ul>
-															<li> <a href="footer1.html">Footer Type 1</a> </li>
-															<li> <a href="footer2.html">Footer Type 2</a> </li>
-															<li> <a href="footer3.html">Footer Type 3</a> </li>
-															<li> <a href="footer4.html">Footer Type 4</a> </li>
-															<li> <a href="footer5.html">Footer Type 5</a> </li>
-															<li> <a href="footer6.html">Footer Type 6</a> </li>
-														</ul>
-													</li>
-													<li class="mega-menu-col"> <a href="copyright1.html">Copyrights</a>
-														<ul>
-															<li> <a href="copyright1.html">Copyrights 1</a> </li>
-															<li> <a href="copyright2.html">Copyrights 2</a> </li>
-															<li> <a href="copyright3.html">Copyrights 3</a> </li>
-															<li> <a href="copyright4.html">Copyrights 4</a> </li>
-															<li> <a href="copyright5.html">Copyrights 5</a> </li>
-														</ul>
-													</li>
-												</ul>
-											</div>
-											<!-- eof mega menu -->
-										</li>
-										<!-- eof features -->
-										<!-- blog -->
-										<li> <a href="blog-right.html">Blog</a>
-											<ul>
-												<li> <a href="blog-right.html">Right Sidebar</a> </li>
-												<li> <a href="blog-left.html">Left Sidebar</a> </li>
-												<li> <a href="blog-full.html">No Sidebar</a> </li>
-												<li> <a href="blog-mosaic.html">Blog Grid</a> </li>
-												<li> <a href="blog-single-right.html">Post</a>
-													<ul>
-														<li> <a href="blog-single-right.html">Right Sidebar</a> </li>
-														<li> <a href="blog-single-left.html">Left Sidebar</a> </li>
-														<li> <a href="blog-single-full.html">No Sidebar</a> </li>
-													</ul>
-												</li>
-												<li> <a href="blog-single-video-right.html">Video Post</a>
-													<ul>
-														<li> <a href="blog-single-video-right.html">Right Sidebar</a> </li>
-														<li> <a href="blog-single-video-left.html">Left Sidebar</a> </li>
-														<li> <a href="blog-single-video-full.html">No Sidebar</a> </li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<!-- eof blog -->
-										<!-- shop -->
-										<li> <a href="shop-left.html">Shop</a>
-											<ul>
-												<li> <a href="shop-left.html">Shop</a> </li>
-												<li> <a href="shop-product.html">Single Product</a> </li>
-												<li> <a href="shop-cart.html">Shopping Cart</a> </li>
-												<li> <a href="shop-checkout.html">Checkout</a> </li>
-												<li> <a href="shop-register.html">Registration</a> </li>
-											</ul>
-										</li>
-										<!-- eof shop -->
-										<!-- contacts -->
-										<li> <a href="contact.html">Contact us</a>
-											<ul>
-												<li> <a href="contact.html">Contact 1</a> </li>
-												<li> <a href="contact2.html">Contact 2</a> </li>
-												<li> <a href="contact3.html">Contact 3</a> </li>
-												<li> <a href="contact4.html">Contact 4</a> </li>
-											</ul>
-										</li>
-										<!-- eof contacts -->
-									</ul>
-								</nav>
+								<?php $this->view('innerpages/menu.php');?>
 								<!-- eof main nav -->
 								<!-- header toggler --><span class="toggle_menu"><span></span></span>
 							</div>
@@ -364,7 +88,36 @@
 					<ul class="slides">
 						<li>
 							<div class="slide-image-wrap">
-								<div class="rounded-container"> <img src="images/slide01.jpg" alt=""> </div>
+								<div class="rounded-container"> <img src="<?php echo base_url();?>images/slide01.jpg" alt=""> </div>
+							</div>
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer" data-animation="fadeInUp">
+													<p class="semibold text-uppercase grey"> Our factory in Colorado is producing </p>
+												</div>
+												<div class="intro-layer" data-animation="fadeInUp">
+													<h2><?php echo $this->lang->line('heading_about');?></h2>
+												</div>
+												<div class="intro-layer" data-animation="fadeInUp">
+													<div class="slide_buttons"> <a href="contact.html" class="theme_button color4 min_width_button">Buy now</a> </div>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li>
+							<div class="slide-image-wrap">
+								<div class="rounded-container"> <img src="<?php echo base_url();?>images/slide02.jpg" alt=""> </div>
 							</div>
 							<div class="container">
 								<div class="row">
@@ -393,36 +146,7 @@
 						</li>
 						<li>
 							<div class="slide-image-wrap">
-								<div class="rounded-container"> <img src="images/slide02.jpg" alt=""> </div>
-							</div>
-							<div class="container">
-								<div class="row">
-									<div class="col-sm-12 text-center">
-										<div class="slide_description_wrapper">
-											<div class="slide_description">
-												<div class="intro-layer" data-animation="fadeInUp">
-													<p class="semibold text-uppercase grey"> Our factory in Colorado is producing </p>
-												</div>
-												<div class="intro-layer" data-animation="fadeInUp">
-													<h2>Recreational &amp; Medical Marijuana...</h2>
-												</div>
-												<div class="intro-layer" data-animation="fadeInUp">
-													<div class="slide_buttons"> <a href="contact.html" class="theme_button color4 min_width_button">Buy now</a> </div>
-												</div>
-											</div>
-											<!-- eof .slide_description -->
-										</div>
-										<!-- eof .slide_description_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
-						<li>
-							<div class="slide-image-wrap">
-								<div class="rounded-container"> <img src="images/slide03.jpg" alt=""> </div>
+								<div class="rounded-container"> <img src="<?php echo base_url();?>images/slide03.jpg" alt=""> </div>
 							</div>
 							<div class="container">
 								<div class="row">
@@ -502,7 +226,7 @@
 						</div>
 						<div class="col-md-3 col-sm-4">
 							<div class="person_bio">
-								<div class="avatar"> <img src="images/faces/01.jpg" alt=""> </div>
+								<div class="avatar"> <img src="<?php echo base_url();?>images/faces/01.jpg" alt=""> </div>
 								<div class="person_name grey"> Carlos Lawson </div> <span class="small-text highlight4">
 						Founder of factory
 					</span> </div>
@@ -532,7 +256,7 @@
 						<div class="col-lg-9 col-sm-8">
 							<div class="owl-carousel" data-nav="true" data-responsive-lg="3">
 								<article class="product ls vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media"> <img src="images/shop/01.jpg" alt="" /> <span class="price main_bg_color">
+									<div class="item-media"> <img src="<?php echo base_url();?>images/shop/01.jpg" alt="" /> <span class="price main_bg_color">
 								<ins>
 									<span class="amount">$50.00</span> </ins>
 										</span>
@@ -551,7 +275,7 @@
 									</div>
 								</article>
 								<article class="product ls vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media"> <img src="images/shop/02.jpg" alt="" /> <span class="price main_bg_color">
+									<div class="item-media"> <img src="<?php echo base_url();?>images/shop/02.jpg" alt="" /> <span class="price main_bg_color">
 								<ins>
 									<span class="amount">$85.00</span> </ins>
 										</span>
@@ -570,7 +294,7 @@
 									</div>
 								</article>
 								<article class="product ls vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media"> <img src="images/shop/03.jpg" alt="" /> <span class="price main_bg_color">
+									<div class="item-media"> <img src="<?php echo base_url();?>images/shop/03.jpg" alt="" /> <span class="price main_bg_color">
 								<ins>
 									<span class="amount">$99.00</span> </ins>
 										</span>
@@ -589,7 +313,7 @@
 									</div>
 								</article>
 								<article class="product ls vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media"> <img src="images/shop/04.jpg" alt="" /> <span class="price main_bg_color">
+									<div class="item-media"> <img src="<?php echo base_url();?>images/shop/04.jpg" alt="" /> <span class="price main_bg_color">
 								<ins>
 									<span class="amount">$99.00</span> </ins>
 										</span>
@@ -621,7 +345,7 @@
 							<h2 class="section_header">Our Special Technologies</h2>
 							<p class="topmargin_50"> <a href="#" class="theme_button inverse color2 complex_button">
 						<span class="left-icon">
-							<img src="images/bbb.png" alt="" draggable="false">
+							<img src="<?php echo base_url();?>images/bbb.png" alt="" draggable="false">
 						</span>
 						Accredited<br> bussiness
 						<span class="right-icon">A+</span>
@@ -631,7 +355,7 @@
 							<div class="row row-flex">
 								<div class="col-lg-4 col-sm-6">
 									<div class="media bottommargin_25">
-										<div class="media-left media-middle"> <img src="images/icons/01.png" alt=""> </div>
+										<div class="media-left media-middle"> <img src="<?php echo base_url();?>images/icons/01.png" alt=""> </div>
 										<div class="media-body media-middle">
 											<h4 class="entry-title hover-color2"> <a href="#">Germinate New Seeds</a> </h4>
 										</div>
@@ -640,7 +364,7 @@
 								</div>
 								<div class="col-lg-4 col-sm-6">
 									<div class="media bottommargin_25">
-										<div class="media-left media-middle"> <img src="images/icons/02.png" alt=""> </div>
+										<div class="media-left media-middle"> <img src="<?php echo base_url();?>images/icons/02.png" alt=""> </div>
 										<div class="media-body media-middle">
 											<h4 class="entry-title hover-color2"> <a href="#">Start Our Clones Indoors</a> </h4>
 										</div>
@@ -649,7 +373,7 @@
 								</div>
 								<div class="col-lg-4 col-sm-6">
 									<div class="media bottommargin_25">
-										<div class="media-left media-middle"> <img src="images/icons/03.png" alt=""> </div>
+										<div class="media-left media-middle"> <img src="<?php echo base_url();?>images/icons/03.png" alt=""> </div>
 										<div class="media-body media-middle">
 											<h4 class="entry-title hover-color2"> <a href="#">Vegetative - Stems and Leaves</a> </h4>
 										</div>
@@ -658,7 +382,7 @@
 								</div>
 								<div class="col-lg-4 col-sm-6">
 									<div class="media bottommargin_25">
-										<div class="media-left media-middle"> <img src="images/icons/04.png" alt=""> </div>
+										<div class="media-left media-middle"> <img src="<?php echo base_url();?>images/icons/04.png" alt=""> </div>
 										<div class="media-body media-middle">
 											<h4 class="entry-title hover-color2"> <a href="#">Flowering - Buds Start Growing!</a> </h4>
 										</div>
@@ -667,7 +391,7 @@
 								</div>
 								<div class="col-lg-4 col-sm-6">
 									<div class="media bottommargin_25">
-										<div class="media-left media-middle"> <img src="images/icons/05.png" alt=""> </div>
+										<div class="media-left media-middle"> <img src="<?php echo base_url();?>images/icons/05.png" alt=""> </div>
 										<div class="media-body media-middle">
 											<h4 class="entry-title hover-color2"> <a href="#">Getting Friendly Nutrients</a> </h4>
 										</div>
@@ -676,7 +400,7 @@
 								</div>
 								<div class="col-lg-4 col-sm-6">
 									<div class="media bottommargin_25">
-										<div class="media-left media-middle"> <img src="images/icons/06.png" alt=""> </div>
+										<div class="media-left media-middle"> <img src="<?php echo base_url();?>images/icons/06.png" alt=""> </div>
 										<div class="media-body media-middle">
 											<h4 class="entry-title hover-color2"> <a href="#">Harvest Our Cannabis</a> </h4>
 										</div>
@@ -710,7 +434,7 @@
 						<div class="col-sm-9">
 							<div class="owl-carousel" data-nav="true" data-dots="false" data-responsive-lg="3" data-responsive-md="2" data-responsive-sm="2">
 								<article class="post vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media entry-thumbnail"> <img src="images/events/08.jpg" alt=""> </div>
+									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>images/events/08.jpg" alt=""> </div>
 									<div class="item-content ls">
 										<header class="entry-header">
 											<div class="entry-meta content-justify small-text"> <span class="greylinks">
@@ -729,7 +453,7 @@
 									</div>
 								</article>
 								<article class="post vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media entry-thumbnail"> <img src="images/events/03.jpg" alt=""> </div>
+									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>images/events/03.jpg" alt=""> </div>
 									<div class="item-content ls">
 										<header class="entry-header">
 											<div class="entry-meta content-justify small-text"> <span class="greylinks">
@@ -748,7 +472,7 @@
 									</div>
 								</article>
 								<article class="post vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media entry-thumbnail"> <img src="images/events/10.jpg" alt=""> </div>
+									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>images/events/10.jpg" alt=""> </div>
 									<div class="item-content ls">
 										<header class="entry-header">
 											<div class="entry-meta content-justify small-text"> <span class="greylinks">
@@ -767,7 +491,7 @@
 									</div>
 								</article>
 								<article class="post vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media entry-thumbnail"> <img src="images/events/04.jpg" alt=""> </div>
+									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>images/events/04.jpg" alt=""> </div>
 									<div class="item-content ls">
 										<header class="entry-header">
 											<div class="entry-meta content-justify small-text"> <span class="greylinks">
@@ -786,7 +510,7 @@
 									</div>
 								</article>
 								<article class="post vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media entry-thumbnail"> <img src="images/events/06.jpg" alt=""> </div>
+									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>images/events/06.jpg" alt=""> </div>
 									<div class="item-content ls">
 										<header class="entry-header">
 											<div class="entry-meta content-justify small-text"> <span class="greylinks">
@@ -805,7 +529,7 @@
 									</div>
 								</article>
 								<article class="post vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media entry-thumbnail"> <img src="images/events/11.jpg" alt=""> </div>
+									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>images/events/11.jpg" alt=""> </div>
 									<div class="item-content ls">
 										<header class="entry-header">
 											<div class="entry-meta content-justify small-text"> <span class="greylinks">
@@ -842,7 +566,8 @@
 								<blockquote class="loop-color">
 									<div class="media bottommargin_20">
 										<div class="media-left media-middle">
-											<div class="avatar"> <img src="images/faces/02.jpg" alt=""> </div>
+
+											<div class="avatar"> <img src="<?php echo base_url();?>images/faces/02.jpg" alt=""> </div>
 										</div>
 										<div class="media-body media-middle">
 											<h5>Philip Morton</h5> <span class="small-text highlight">Client</span> </div>
@@ -852,7 +577,7 @@
 								<blockquote class="loop-color">
 									<div class="media bottommargin_20">
 										<div class="media-left media-middle">
-											<div class="avatar"> <img src="images/faces/03.jpg" alt=""> </div>
+											<div class="avatar"> <img src="<?php echo base_url();?>images/faces/03.jpg" alt=""> </div>
 										</div>
 										<div class="media-body media-middle">
 											<h5>Martha Adkins</h5> <span class="small-text highlight">Client</span> </div>
@@ -862,7 +587,7 @@
 								<blockquote class="loop-color">
 									<div class="media bottommargin_20">
 										<div class="media-left media-middle">
-											<div class="avatar"> <img src="images/faces/04.jpg" alt=""> </div>
+											<div class="avatar"> <img src="<?php echo base_url();?>images/faces/04.jpg" alt=""> </div>
 										</div>
 										<div class="media-body media-middle">
 											<h5>Joel White</h5> <span class="small-text highlight">Client</span> </div>
@@ -872,7 +597,7 @@
 								<blockquote class="loop-color">
 									<div class="media bottommargin_20">
 										<div class="media-left media-middle">
-											<div class="avatar"> <img src="images/faces/05.jpg" alt=""> </div>
+											<div class="avatar"> <img src="<?php echo base_url();?>images/faces/05.jpg" alt=""> </div>
 										</div>
 										<div class="media-body media-middle">
 											<h5>Philip Morton</h5> <span class="small-text highlight">Client</span> </div>
@@ -882,7 +607,7 @@
 								<blockquote class="loop-color">
 									<div class="media bottommargin_20">
 										<div class="media-left media-middle">
-											<div class="avatar"> <img src="images/faces/06.jpg" alt=""> </div>
+											<div class="avatar"> <img src="<?php echo base_url();?>images/faces/06.jpg" alt=""> </div>
 										</div>
 										<div class="media-body media-middle">
 											<h5>Martha Adkins</h5> <span class="small-text highlight">Client</span> </div>
@@ -892,7 +617,7 @@
 								<blockquote class="loop-color">
 									<div class="media bottommargin_20">
 										<div class="media-left media-middle">
-											<div class="avatar"> <img src="images/faces/07.jpg" alt=""> </div>
+											<div class="avatar"> <img src="<?php echo base_url();?>images/faces/07.jpg" alt=""> </div>
 										</div>
 										<div class="media-body media-middle">
 											<h5>Joel White</h5> <span class="small-text highlight">Client</span> </div>
@@ -908,7 +633,7 @@
 				<!-- marker description and marker icon goes here -->
 				<div class="map_marker_description">
 					<h3>Map Title</h3>
-					<p>Map description text</p> <img src="images/map_marker_icon.png" alt="" class="map_marker_icon"> </div>
+					<p>Map description text</p> <img src="<?php echo base_url();?>images/map_marker_icon.png" alt="" class="map_marker_icon"> </div>
 			</section>
 			<section id="subscribe" class="cs main_color2 background_cover overlay_color page_subscribe section_padding_top_75 section_padding_bottom_75 table_section table_section_lg">
 				<div class="container">
@@ -939,95 +664,12 @@
 					</div>
 				</div>
 			</section>
-			<footer class="page_footer ds section_padding_top_150 section_padding_bottom_130 columns_margin_bottom_30">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-12 text-center">
-							<div class="logo vertical_logo topmargin_20"> <img src="images/logo.png" alt=""> <span class="logo_text">
-                        Canabia
-                        <small>Colorado dispensary</small>
-                    </span> </div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6 text-center text-sm-left">
-							<div class="widget widget_text greylinks color2">
-								<h4 class="widget-title"> Our Contacts </h4>
-								<div class="media small-media">
-									<div class="media-left"> <i class="fa fa-map-marker highlight2"></i> </div>
-									<div class="media-body">123 Abshire Circle, Colorado</div>
-								</div>
-								<div class="media small-media">
-									<div class="media-left"> <i class="fa fa-pencil highlight2"></i> </div>
-									<div class="media-body"> <a href="mailto:marijuana@example.com">marijuana@example.com</a> </div>
-								</div>
-								<div class="media small-media">
-									<div class="media-left"> <i class="fa fa-internet-explorer highlight2"></i> </div>
-									<div class="media-body"> <a href="#">www.example.com</a> </div>
-								</div>
-								<div class="media small-media">
-									<div class="media-left"> <i class="fa fa-phone highlight2"></i> </div>
-									<div class="media-body">0 (800) 846 4235 (operator) </div>
-								</div>
-								<div class="media small-media">
-									<div class="media-left"> <i class="fa fa-clock-o highlight2"></i> </div>
-									<div class="media-body">Working Hours: 24/7</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6 text-center text-sm-left">
-							<div class="widget widget_recent_posts">
-								<h4 class="widget-title">Recent Posts</h4>
-								<ul>
-									<li class="media">
-										<div class="media-left media-middle"> <img src="images/recent_post1.jpg" alt=""> </div>
-										<div class="media-body media-middle">
-											<p class="darklinks"> <a href="blog-single-left.html">Rump groud round shan bacon chop.</a> </p> <span class="small-text highlightlinks">
-								<a href="blog-single-left.html">
-									<time datetime="2017-10-03T08:50:40+00:00">
-									11 jan, 2018</time>
-								</a>
-							</span> </div>
-									</li>
-									<li class="media">
-										<div class="media-left media-middle"> <img src="images/recent_post2.jpg" alt=""> </div>
-										<div class="media-body media-middle">
-											<p class="darklinks"> <a href="blog-single-left.html">Bresaola jerky short ribs pastrami shank.</a> </p> <span class="small-text highlightlinks">
-								<a href="blog-single-left.html">
-									<time datetime="2017-10-03T08:50:40+00:00">
-									23 jan, 2018</time>
-								</a>
-							</span> </div>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6 col-sm-offset-3 col-md-offset-0 text-center">
-							<div class="widget widget_text"> <a href="#">
-						<img src="images/banner.png" alt="">
-					</a> </div>
-						</div>
-					</div>
-				</div>
-			</footer>
-			<section class="ds ms page_copyright section_padding_50">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<p>&copy; Copyright 2018. All Rights Reserved.</p>
-							<div class="social-links"> <a class="social-icon border-icon rounded-icon socicon-facebook" href="#" title="Facebook"></a> <a class="social-icon border-icon rounded-icon socicon-twitter" href="#" title="Twitter"></a> <a class="social-icon border-icon rounded-icon socicon-google"
-								    href="#" title="Google"></a> </div>
-						</div>
-					</div>
-				</div>
-			</section>
+			<?php $this->view('innerpages/footer.php');?>
 		</div>
 		<!-- eof #box_wrapper -->
 	</div>
 	<!-- eof #canvas -->
-	<script src="js/compressed.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/switcher.js"></script>
-	<!-- Google Map Script -->
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTwYSMRGuTsmfl2z_zZDStYqMlKtrybxo"></script>
+	<?php $this->view('innerpages/js.php');?>
 </body>
 
 

@@ -13,3 +13,6 @@ $lang['menu_link_testimonials']="Testimonials";
 $lang['menu_link_downloads']="Downloads";
 $lang['menu_link_contact']="Contact Us";
 
+
+$lang['heading_about_us'] = "About Us English";
+

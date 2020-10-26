@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends MY_Controller {
+class About extends MY_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -22,7 +22,7 @@ class Home extends MY_Controller {
 	{
 		//$this->load->view('home');
 		$data['title']='';
-		$this->load->view('home',$data);
+		$this->load->view('about/about',$data);
 		
 	}
 }
