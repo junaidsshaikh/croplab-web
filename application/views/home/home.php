@@ -5,7 +5,7 @@
 					<ul class="slides">
 						<li>
 							<div class="slide-image-wrap">
-								<div class="rounded-container"> <img src="<?php echo base_url();?>images/slide01.jpg" alt=""> </div>
+								<div class="rounded-container"> <img src="<?php echo base_url();?>assets/images/slide01.jpg" alt=""> </div>
 							</div>
 							<div class="container">
 								<div class="row">
@@ -34,7 +34,7 @@
 						</li>
 						<li>
 							<div class="slide-image-wrap">
-								<div class="rounded-container"> <img src="<?php echo base_url();?>images/slide02.jpg" alt=""> </div>
+								<div class="rounded-container"> <img src="<?php echo base_url();?>assets/images/slide02.jpg" alt=""> </div>
 							</div>
 							<div class="container">
 								<div class="row">
@@ -63,7 +63,7 @@
 						</li>
 						<li>
 							<div class="slide-image-wrap">
-								<div class="rounded-container"> <img src="<?php echo base_url();?>images/slide03.jpg" alt=""> </div>
+								<div class="rounded-container"> <img src="<?php echo base_url();?>assets/images/slide03.jpg" alt=""> </div>
 							</div>
 							<div class="container">
 								<div class="row">
@@ -143,7 +143,7 @@
 						</div>
 						<div class="col-md-3 col-sm-4">
 							<div class="person_bio">
-								<div class="avatar"> <img src="<?php echo base_url();?>images/faces/01.jpg" alt=""> </div>
+								<div class="avatar"> <img src="<?php echo base_url();?>assets/images/faces/01.jpg" alt=""> </div>
 								<div class="person_name grey"> Carlos Lawson </div> <span class="small-text highlight4">
 						Founder of factory
 					</span> </div>
@@ -173,7 +173,7 @@
 						<div class="col-lg-9 col-sm-8">
 							<div class="owl-carousel" data-nav="true" data-responsive-lg="3">
 								<article class="product ls vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media"> <img src="<?php echo base_url();?>images/shop/01.jpg" alt="" /> <span class="price main_bg_color">
+									<div class="item-media"> <img src="<?php echo base_url();?>assets/images/shop/01.jpg" alt="" /> <span class="price main_bg_color">
 								<ins>
 									<span class="amount">$50.00</span> </ins>
 										</span>
@@ -192,7 +192,7 @@
 									</div>
 								</article>
 								<article class="product ls vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media"> <img src="<?php echo base_url();?>images/shop/02.jpg" alt="" /> <span class="price main_bg_color">
+									<div class="item-media"> <img src="<?php echo base_url();?>assets/images/shop/02.jpg" alt="" /> <span class="price main_bg_color">
 								<ins>
 									<span class="amount">$85.00</span> </ins>
 										</span>
@@ -211,7 +211,7 @@
 									</div>
 								</article>
 								<article class="product ls vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media"> <img src="<?php echo base_url();?>images/shop/03.jpg" alt="" /> <span class="price main_bg_color">
+									<div class="item-media"> <img src="<?php echo base_url();?>assets/images/shop/03.jpg" alt="" /> <span class="price main_bg_color">
 								<ins>
 									<span class="amount">$99.00</span> </ins>
 										</span>
@@ -230,7 +230,7 @@
 									</div>
 								</article>
 								<article class="product ls vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media"> <img src="<?php echo base_url();?>images/shop/04.jpg" alt="" /> <span class="price main_bg_color">
+									<div class="item-media"> <img src="<?php echo base_url();?>assets/images/shop/04.jpg" alt="" /> <span class="price main_bg_color">
 								<ins>
 									<span class="amount">$99.00</span> </ins>
 										</span>
@@ -262,7 +262,7 @@
 							<h2 class="section_header">Our Special Technologies</h2>
 							<p class="topmargin_50"> <a href="#" class="theme_button inverse color2 complex_button">
 						<span class="left-icon">
-							<img src="<?php echo base_url();?>images/bbb.png" alt="" draggable="false">
+							<img src="<?php echo base_url();?>assets/images/bbb.png" alt="" draggable="false">
 						</span>
 						Accredited<br> bussiness
 						<span class="right-icon">A+</span>
@@ -272,7 +272,7 @@
 							<div class="row row-flex">
 								<div class="col-lg-4 col-sm-6">
 									<div class="media bottommargin_25">
-										<div class="media-left media-middle"> <img src="<?php echo base_url();?>images/icons/01.png" alt=""> </div>
+										<div class="media-left media-middle"> <img src="<?php echo base_url();?>assets/images/icons/01.png" alt=""> </div>
 										<div class="media-body media-middle">
 											<h4 class="entry-title hover-color2"> <a href="#">Germinate New Seeds</a> </h4>
 										</div>
@@ -281,7 +281,7 @@
 								</div>
 								<div class="col-lg-4 col-sm-6">
 									<div class="media bottommargin_25">
-										<div class="media-left media-middle"> <img src="<?php echo base_url();?>images/icons/02.png" alt=""> </div>
+										<div class="media-left media-middle"> <img src="<?php echo base_url();?>assets/images/icons/02.png" alt=""> </div>
 										<div class="media-body media-middle">
 											<h4 class="entry-title hover-color2"> <a href="#">Start Our Clones Indoors</a> </h4>
 										</div>
@@ -290,7 +290,7 @@
 								</div>
 								<div class="col-lg-4 col-sm-6">
 									<div class="media bottommargin_25">
-										<div class="media-left media-middle"> <img src="<?php echo base_url();?>images/icons/03.png" alt=""> </div>
+										<div class="media-left media-middle"> <img src="<?php echo base_url();?>assets/images/icons/03.png" alt=""> </div>
 										<div class="media-body media-middle">
 											<h4 class="entry-title hover-color2"> <a href="#">Vegetative - Stems and Leaves</a> </h4>
 										</div>
@@ -299,7 +299,7 @@
 								</div>
 								<div class="col-lg-4 col-sm-6">
 									<div class="media bottommargin_25">
-										<div class="media-left media-middle"> <img src="<?php echo base_url();?>images/icons/04.png" alt=""> </div>
+										<div class="media-left media-middle"> <img src="<?php echo base_url();?>assets/images/icons/04.png" alt=""> </div>
 										<div class="media-body media-middle">
 											<h4 class="entry-title hover-color2"> <a href="#">Flowering - Buds Start Growing!</a> </h4>
 										</div>
@@ -308,7 +308,7 @@
 								</div>
 								<div class="col-lg-4 col-sm-6">
 									<div class="media bottommargin_25">
-										<div class="media-left media-middle"> <img src="<?php echo base_url();?>images/icons/05.png" alt=""> </div>
+										<div class="media-left media-middle"> <img src="<?php echo base_url();?>assets/images/icons/05.png" alt=""> </div>
 										<div class="media-body media-middle">
 											<h4 class="entry-title hover-color2"> <a href="#">Getting Friendly Nutrients</a> </h4>
 										</div>
@@ -317,7 +317,7 @@
 								</div>
 								<div class="col-lg-4 col-sm-6">
 									<div class="media bottommargin_25">
-										<div class="media-left media-middle"> <img src="<?php echo base_url();?>images/icons/06.png" alt=""> </div>
+										<div class="media-left media-middle"> <img src="<?php echo base_url();?>assets/images/icons/06.png" alt=""> </div>
 										<div class="media-body media-middle">
 											<h4 class="entry-title hover-color2"> <a href="#">Harvest Our Cannabis</a> </h4>
 										</div>
@@ -351,7 +351,7 @@
 						<div class="col-sm-9">
 							<div class="owl-carousel" data-nav="true" data-dots="false" data-responsive-lg="3" data-responsive-md="2" data-responsive-sm="2">
 								<article class="post vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>images/events/08.jpg" alt=""> </div>
+									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>assets/images/events/08.jpg" alt=""> </div>
 									<div class="item-content ls">
 										<header class="entry-header">
 											<div class="entry-meta content-justify small-text"> <span class="greylinks">
@@ -370,7 +370,7 @@
 									</div>
 								</article>
 								<article class="post vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>images/events/03.jpg" alt=""> </div>
+									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>assets/images/events/03.jpg" alt=""> </div>
 									<div class="item-content ls">
 										<header class="entry-header">
 											<div class="entry-meta content-justify small-text"> <span class="greylinks">
@@ -389,7 +389,7 @@
 									</div>
 								</article>
 								<article class="post vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>images/events/10.jpg" alt=""> </div>
+									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>assets/images/events/10.jpg" alt=""> </div>
 									<div class="item-content ls">
 										<header class="entry-header">
 											<div class="entry-meta content-justify small-text"> <span class="greylinks">
@@ -408,7 +408,7 @@
 									</div>
 								</article>
 								<article class="post vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>images/events/04.jpg" alt=""> </div>
+									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>assets/images/events/04.jpg" alt=""> </div>
 									<div class="item-content ls">
 										<header class="entry-header">
 											<div class="entry-meta content-justify small-text"> <span class="greylinks">
@@ -427,7 +427,7 @@
 									</div>
 								</article>
 								<article class="post vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>images/events/06.jpg" alt=""> </div>
+									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>assets/images/events/06.jpg" alt=""> </div>
 									<div class="item-content ls">
 										<header class="entry-header">
 											<div class="entry-meta content-justify small-text"> <span class="greylinks">
@@ -446,7 +446,7 @@
 									</div>
 								</article>
 								<article class="post vertical-item content-padding rounded overflow_hidden loop-color">
-									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>images/events/11.jpg" alt=""> </div>
+									<div class="item-media entry-thumbnail"> <img src="<?php echo base_url();?>assets/images/events/11.jpg" alt=""> </div>
 									<div class="item-content ls">
 										<header class="entry-header">
 											<div class="entry-meta content-justify small-text"> <span class="greylinks">
@@ -484,7 +484,7 @@
 									<div class="media bottommargin_20">
 										<div class="media-left media-middle">
 
-											<div class="avatar"> <img src="<?php echo base_url();?>images/faces/02.jpg" alt=""> </div>
+											<div class="avatar"> <img src="<?php echo base_url();?>assets/images/faces/02.jpg" alt=""> </div>
 										</div>
 										<div class="media-body media-middle">
 											<h5>Philip Morton</h5> <span class="small-text highlight">Client</span> </div>
@@ -494,7 +494,7 @@
 								<blockquote class="loop-color">
 									<div class="media bottommargin_20">
 										<div class="media-left media-middle">
-											<div class="avatar"> <img src="<?php echo base_url();?>images/faces/03.jpg" alt=""> </div>
+											<div class="avatar"> <img src="<?php echo base_url();?>assets/images/faces/03.jpg" alt=""> </div>
 										</div>
 										<div class="media-body media-middle">
 											<h5>Martha Adkins</h5> <span class="small-text highlight">Client</span> </div>
@@ -504,7 +504,7 @@
 								<blockquote class="loop-color">
 									<div class="media bottommargin_20">
 										<div class="media-left media-middle">
-											<div class="avatar"> <img src="<?php echo base_url();?>images/faces/04.jpg" alt=""> </div>
+											<div class="avatar"> <img src="<?php echo base_url();?>assets/images/faces/04.jpg" alt=""> </div>
 										</div>
 										<div class="media-body media-middle">
 											<h5>Joel White</h5> <span class="small-text highlight">Client</span> </div>
@@ -514,7 +514,7 @@
 								<blockquote class="loop-color">
 									<div class="media bottommargin_20">
 										<div class="media-left media-middle">
-											<div class="avatar"> <img src="<?php echo base_url();?>images/faces/05.jpg" alt=""> </div>
+											<div class="avatar"> <img src="<?php echo base_url();?>assets/images/faces/05.jpg" alt=""> </div>
 										</div>
 										<div class="media-body media-middle">
 											<h5>Philip Morton</h5> <span class="small-text highlight">Client</span> </div>
@@ -524,7 +524,7 @@
 								<blockquote class="loop-color">
 									<div class="media bottommargin_20">
 										<div class="media-left media-middle">
-											<div class="avatar"> <img src="<?php echo base_url();?>images/faces/06.jpg" alt=""> </div>
+											<div class="avatar"> <img src="<?php echo base_url();?>assets/images/faces/06.jpg" alt=""> </div>
 										</div>
 										<div class="media-body media-middle">
 											<h5>Martha Adkins</h5> <span class="small-text highlight">Client</span> </div>
@@ -534,7 +534,7 @@
 								<blockquote class="loop-color">
 									<div class="media bottommargin_20">
 										<div class="media-left media-middle">
-											<div class="avatar"> <img src="<?php echo base_url();?>images/faces/07.jpg" alt=""> </div>
+											<div class="avatar"> <img src="<?php echo base_url();?>assets/images/faces/07.jpg" alt=""> </div>
 										</div>
 										<div class="media-body media-middle">
 											<h5>Joel White</h5> <span class="small-text highlight">Client</span> </div>
@@ -550,7 +550,7 @@
 				<!-- marker description and marker icon goes here -->
 				<div class="map_marker_description">
 					<h3>Map Title</h3>
-					<p>Map description text</p> <img src="<?php echo base_url();?>images/map_marker_icon.png" alt="" class="map_marker_icon"> </div>
+					<p>Map description text</p> <img src="<?php echo base_url();?>assets/images/map_marker_icon.png" alt="" class="map_marker_icon"> </div>
 			</section>
 			<section id="subscribe" class="cs main_color2 background_cover overlay_color page_subscribe section_padding_top_75 section_padding_bottom_75 table_section table_section_lg">
 				<div class="container">

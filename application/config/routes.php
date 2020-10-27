@@ -53,5 +53,11 @@ $route['default_controller'] = 'home/home';
 $route['(:any)/home']='home/home';
 $route['(:any)/about']='about/about';
 $route['(:any)/gallary']='gallary/gallary';
+$route['(:any)/sampling']='sampling/sampling';
+$route['(:any)/services']='services/services';
+$route['(:any)/testimonials']='testimonials/testimonials';
+$route['(:any)/downloads']='downloads/downloads';
+$route['(:any)/contact']='contact/contact';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

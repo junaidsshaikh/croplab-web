@@ -15,7 +15,12 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<?php $this->view('innerpages/css.php');?>
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/animations.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/fonts.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/main.css" class="color-switcher-link">
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/shop.css" class="color-switcher-link">
+	<script src="<?php echo base_url();?>assets/js/vendor/modernizr-2.6.2.min.js"></script>
 	<!--[if lt IE 9]>
 		<script src="js/vendor/html5shiv.min.js"></script>
 		<script src="js/vendor/respond.min.js"></script>
@@ -81,10 +86,10 @@
                         <div class="col-sm-2 col-lg-2 text-center">
                             <select onchange="location = this.value;">
                                 <option>Language</option>
-                                <option value="<?php echo base_url();?>English/home">English</option>
-                                <option value="<?php echo base_url();?>Hindi/home">Hindi</option>
-                                <option value="<?php echo base_url();?>Marathi/home">Marathi</option>
-                                <option value="<?php echo base_url();?>Gujarati/home">Gujarati</option>
+                                <option value="<?php echo base_url();?>en/home">English</option>
+                                <option value="<?php echo base_url();?>hn/home">Hindi</option>
+                                <option value="<?php echo base_url();?>mr/home">Marathi</option>
+                                <option value="<?php echo base_url();?>gj/home">Gujarati</option>
                             </select>	
                         </div>
                     </div>
@@ -135,7 +140,7 @@
                                             <a href="<?php echo base_url()?><?php echo $uri?>/downloads"><?php echo $this->lang->line('menu_link_downloads')?></a>
                                         </li>
                                         <li>
-                                            <a href="<?php echo base_url()?><?php echo $uri?>/downloads"><?php echo $this->lang->line('menu_link_contact')?></a>
+                                            <a href="<?php echo base_url()?><?php echo $uri?>/contact"><?php echo $this->lang->line('menu_link_contact')?></a>
                                             <!-- eof mega menu -->
                                         </li>
                                         <!-- eof features -->
