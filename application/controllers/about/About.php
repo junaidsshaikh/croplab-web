@@ -18,11 +18,12 @@ class About extends MY_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	
 	public function index()
 	{
-		//$this->load->view('home');
-		$data['title']='';
-		$this->load->view('about/about',$data);
+		$data['content_title'] 	= "About";	// page title
+		$data['main_content'] 	= 'about/about';	// page
+		$this->load->view('innerpages/template', $data);
 		
 	}
 }
