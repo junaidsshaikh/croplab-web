@@ -6,8 +6,6 @@
 <html class="no-js">
 <!--<![endif]-->
 
-
-<!-- Mirrored from webdesign-finder.com/html/canabia/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Oct 2020 06:16:41 GMT -->
 <head>
 	<title>Canabia</title>
 	<meta charset="utf-8">

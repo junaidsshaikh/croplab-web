@@ -78,7 +78,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 text-center">
-                            <p>&copy; Copyright 2018. All Rights Reserved.</p>
+                            <p>&copy; Copyright <?php echo date("Y"); ?>. All Rights Reserved.</p>
                             <div class="social-links">
                                 <a class="social-icon border-icon rounded-icon socicon-facebook" href="#" title="Facebook"></a> <a class="social-icon border-icon rounded-icon socicon-twitter" href="#" title="Twitter"></a>
                                 <a class="social-icon border-icon rounded-icon socicon-google" href="#" title="Google"></a>
@@ -95,6 +95,4 @@
 	<?php $this->view('innerpages/js.php');?>
 </body>
 
-
-<!-- Mirrored from webdesign-finder.com/html/canabia/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Oct 2020 06:20:14 GMT -->
 </html>
