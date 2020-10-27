@@ -18,19 +18,11 @@ class Home extends MY_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	/*public function index()
+	public function index()
 	{
 		//$this->load->view('home');
 		$data['title']='';
 		$this->load->view('home/home',$data);
 		
-	}*/
-	public function index()
-	{
-		$data['content_title'] 	= "Home";	// page title
-		$data['main_content'] 	= 'home/home';	// page
-		$this->load->view('innerpages/template', $data);
-		
 	}
-	
 }
