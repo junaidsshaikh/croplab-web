@@ -26,6 +26,16 @@
 		<script src="js/vendor/respond.min.js"></script>
 		<script src="js/vendor/jquery-1.12.4.min.js"></script>
 	<![endif]-->
+    <style>
+    	.style_dropdown{
+			height:33px;
+			border-radius:0px;
+			padding-top:0px;
+			padding-bottom:0px;
+			font-weight:600;
+			font-size:14px;
+		}
+    </style>
 </head>
 
 <body>
@@ -84,7 +94,7 @@
                         <div class="col-sm-3 col-lg-3 text-center text-sm-right"><a href="contacts.html" class="theme_button color3 block_button margin_0">Request a call back free</a></div>
                         <!--<div class="col-sm-2 col-lg-2 text-center"><a href="<?php echo base_url();?>English/home">English</a> <a href="<?php echo base_url();?>Hindi/home">Hindi</a> <a href="<?php echo base_url();?>Marathi/home">Marathi</a> <a href="<?php echo base_url();?>Gujarati/home">Gujarati</a></div>-->
                         <div class="col-sm-2 col-lg-2 text-center">
-                            <select onchange="location = this.value;">
+                            <select onchange="location = this.value;" class="style_dropdown">
                                 <option>Language</option>
                                 <option value="<?php echo base_url();?>en/home">English</option>
                                 <option value="<?php echo base_url();?>hi/home">Hindi</option>

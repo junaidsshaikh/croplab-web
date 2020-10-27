@@ -25,7 +25,7 @@
                     <div class="map_marker_description">
                         <h3>Map Title</h3>
                         <p>Map description text</p>
-                        <!-- <img class="map_marker_icon" src="images/map_marker_icon.png" alt=""> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2650.0554020504833!2d73.89083905331007!3d20.061150632166175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddc3d45ce3c47b%3A0xb412431c65e5b215!2sVanita%20Agrochem%20(I)%20Pvt.%20Ltd%20Nashik%20Lab!5e0!3m2!1sen!2sin!4v1603798556473!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </section>
             </div>
