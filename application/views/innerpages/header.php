@@ -87,9 +87,9 @@
                             <select onchange="location = this.value;">
                                 <option>Language</option>
                                 <option value="<?php echo base_url();?>en/home">English</option>
-                                <option value="<?php echo base_url();?>hn/home">Hindi</option>
+                                <option value="<?php echo base_url();?>hi/home">Hindi</option>
                                 <option value="<?php echo base_url();?>mr/home">Marathi</option>
-                                <option value="<?php echo base_url();?>gj/home">Gujarati</option>
+                                <option value="<?php echo base_url();?>gu/home">Gujarati</option>
                             </select>	
                         </div>
                     </div>

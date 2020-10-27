@@ -5,9 +5,9 @@ class MY_Controller extends CI_Controller {
 	public function __construct() {
 		
 		parent::__construct();
-		//En=English,Hn=Hindi,Mr=Marathi,Gj=Gujarati
+		//En=English,Hi=Hindi,Mr=Marathi,Gu=Gujarati
 		
-		$languages = array("En", "hn", "mr", "gj");
+		$languages = array("En", "hi", "mr", "gu");
 		
 		if(in_array($this->uri->segment(1),$languages)){
 			$this->load->language($this->uri->segment(1),$this->uri->segment(1));

@@ -18,3 +18,6 @@ $lang['heading_about_us'] = "About Us English";
 
 /*Sampling Section starts*/
 $lang['sampling_heading'] = "Sampling English";
+
+/*Contact us Section starts*/
+$lang['contact_us_heading'] = "Contact Us";
