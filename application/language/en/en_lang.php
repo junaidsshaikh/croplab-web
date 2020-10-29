@@ -22,6 +22,18 @@ $lang['banner_heading_two'] 						= "Welcome to Indian Farmers Croplab";
 $lang['banner_heading_three'] 						= "Prompt and Quality Analytical Services";
 $lang['banner_heading_four'] 						= "Plant, Soil and Water Analysis";
 
+$lang['banner_card_title_one'] 						= "Plant Analysis";
+$lang['banner_card_desc_one'] 						= "plant analysis will show what nutrients the plant is taking up through the root. ";
+$lang['banner_card_title_two'] 						= "Soil Analysis";
+$lang['banner_card_desc_two'] 						= "Crop soil analysis help to improve your soil fertility crop quality and yield";
+$lang['banner_card_title_three'] 					= "Water Analysis";
+$lang['banner_card_desc_three'] 					= "Water testing helps in water management";
+$lang['banner_card_title_four'] 					= "Quality Analysis";
+$lang['banner_card_desc_four'] 						= "We are committed to provide quality analytical services.";
+
+$lang['question_title'] 							= "What is Croplab?";
+$lang['question_heading'] 							= "History about Croplab";
+
 /*About Us Section starts*/
 $lang['heading_about_us'] 							= "About Us English";
 

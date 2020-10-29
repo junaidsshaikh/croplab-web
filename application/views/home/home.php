@@ -18,9 +18,6 @@
 												<div class="intro-layer" data-animation="fadeInUp">
 													<h2><?php echo $this->lang->line('banner_heading_two');?></h2>
 												</div>
-												<div class="intro-layer" data-animation="fadeInUp">
-													<div class="slide_buttons"> <a href="contact.html" class="theme_button color4 min_width_button">Buy now</a> </div>
-												</div>
 											</div>
 											<!-- eof .slide_description -->
 										</div>
@@ -47,9 +44,6 @@
 												<div class="intro-layer" data-animation="fadeInUp">
 													<h2><?php echo $this->lang->line('banner_heading_three');?></h2>
 												</div>
-												<div class="intro-layer" data-animation="fadeInUp">
-													<div class="slide_buttons"> <a href="contact.html" class="theme_button color4 min_width_button">Buy now</a> </div>
-												</div>
 											</div>
 											<!-- eof .slide_description -->
 										</div>
@@ -74,10 +68,7 @@
 													<p class="semibold text-uppercase grey"> <?php echo $this->lang->line('banner_heading_one');?> </p>
 												</div>
 												<div class="intro-layer" data-animation="fadeInUp">
-													<h2><?php echo $this->lang->line('banner_heading_four');?> </h2>
-												</div>
-												<div class="intro-layer" data-animation="fadeInUp">
-													<div class="slide_buttons"> <a href="contact.html" class="theme_button color4 min_width_button">Buy now</a> </div>
+													<h2><?php echo $this->lang->line('banner_heading_four');?>banner_card_title_one </h2>
 												</div>
 											</div>
 											<!-- eof .slide_description -->
@@ -99,30 +90,30 @@
 					<div class="row">
 						<div class="col-md-3 col-sm-6 to_animate no_appear_delay" data-animation="fadeInDown" data-delay="600">
 							<div class="teaser top_offset_icon main_bg_color rounded text-center">
-								<div class="teaser_icon size_small round main_bg_color"> <i class="fa fa-globe" aria-hidden="true"></i> </div>
-								<h4 class="topmargin_0"> <a href="#">Green House</a> </h4>
-								<p class="content-3lines-ellipsis">«Our cannabis is greenhouse grown with love.»</p>
+								<div class="teaser_icon size_small round main_bg_color"> <i class="fa fa-leaf" aria-hidden="true"></i> </div>
+								<h4 class="topmargin_0"> <a href="#"><?php echo $this->lang->line('banner_card_title_one');?></a> </h4>
+								<p class="content-3lines-ellipsis"><?php echo $this->lang->line('banner_card_desc_one');?></p>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 to_animate no_appear_delay" data-animation="fadeInDown" data-delay="300">
 							<div class="teaser top_offset_icon main_bg_color2 rounded text-center">
-								<div class="teaser_icon size_small round main_bg_color2"> <i class="fa fa-plug" aria-hidden="true"></i> </div>
-								<h4 class="topmargin_0"> <a href="#">Solar Energy</a> </h4>
-								<p class="content-3lines-ellipsis">«What better source of energy than the sun itself.»</p>
+								<div class="teaser_icon size_small round main_bg_color2"> <i class="fa fa-leaf" aria-hidden="true"></i> </div>
+								<h4 class="topmargin_0"> <a href="#"><?php echo $this->lang->line('banner_card_title_two');?></a> </h4>
+								<p class="content-3lines-ellipsis"><?php echo $this->lang->line('banner_card_desc_two');?></p>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 to_animate no_appear_delay" data-animation="fadeInDown" data-delay="300">
 							<div class="teaser top_offset_icon main_bg_color3 rounded text-center">
 								<div class="teaser_icon size_small round main_bg_color3"> <i class="fa fa-leaf" aria-hidden="true"></i> </div>
-								<h4 class="topmargin_0"> <a href="#">Sustainable</a> </h4>
-								<p class="content-3lines-ellipsis">«Low carbon footprint,-Thats why we buy local, reuse.»</p>
+								<h4 class="topmargin_0"> <a href="#"><?php echo $this->lang->line('banner_card_title_three');?></a> </h4>
+								<p class="content-3lines-ellipsis"><?php echo $this->lang->line('banner_card_desc_three');?></p>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6 to_animate no_appear_delay" data-animation="fadeInDown" data-delay="600">
 							<div class="teaser top_offset_icon main_bg_color4 rounded text-center">
 								<div class="teaser_icon size_small round main_bg_color4"> <i class="fa fa-users" aria-hidden="true"></i> </div>
-								<h4 class="topmargin_0"> <a href="#">Connoisseurs</a> </h4>
-								<p class="content-3lines-ellipsis">«We are a big family of perfect cannabis connoisseurs.»</p>
+								<h4 class="topmargin_0"> <a href="#"><?php echo $this->lang->line('banner_card_title_four');?></a> </h4>
+								<p class="content-3lines-ellipsis"><?php echo $this->lang->line('banner_card_desc_four');?></p>
 							</div>
 						</div>
 					</div>
@@ -132,9 +123,9 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3 col-sm-12"> <span class="small-text big highlight4">
-					Who is marijuana factory?
+					<?php echo $this->lang->line('question_title');?>
 				</span>
-							<h2 class="section_header">History About Factory</h2>
+							<h2 class="section_header"><?php echo $this->lang->line('question_heading');?></h2>
 						</div>
 						<div class="col-md-6 col-sm-8">
 							<p class="bold grey">We are a Marijuana Dispensary - Family Owned &amp; Operated Tier III Producer &amp; Processor located Colorado. </p>
