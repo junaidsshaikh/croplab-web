@@ -13,10 +13,10 @@
 										<div class="slide_description_wrapper">
 											<div class="slide_description">
 												<div class="intro-layer" data-animation="fadeInUp">
-													<p class="semibold text-uppercase grey"> Our factory in Colorado is producing </p>
+													<p class="semibold text-uppercase grey"> <?php echo $this->lang->line('banner_heading_one');?> </p>
 												</div>
 												<div class="intro-layer" data-animation="fadeInUp">
-													<h2><?php echo $this->lang->line('heading_about');?></h2>
+													<h2><?php echo $this->lang->line('banner_heading_two');?></h2>
 												</div>
 												<div class="intro-layer" data-animation="fadeInUp">
 													<div class="slide_buttons"> <a href="contact.html" class="theme_button color4 min_width_button">Buy now</a> </div>
@@ -42,10 +42,10 @@
 										<div class="slide_description_wrapper">
 											<div class="slide_description">
 												<div class="intro-layer" data-animation="fadeInUp">
-													<p class="semibold text-uppercase grey"> Our factory in Colorado is producing </p>
+													<p class="semibold text-uppercase grey"> <?php echo $this->lang->line('banner_heading_one');?> </p>
 												</div>
 												<div class="intro-layer" data-animation="fadeInUp">
-													<h2>Recreational &amp; Medical Marijuana...</h2>
+													<h2><?php echo $this->lang->line('banner_heading_three');?></h2>
 												</div>
 												<div class="intro-layer" data-animation="fadeInUp">
 													<div class="slide_buttons"> <a href="contact.html" class="theme_button color4 min_width_button">Buy now</a> </div>
@@ -71,10 +71,10 @@
 										<div class="slide_description_wrapper">
 											<div class="slide_description">
 												<div class="intro-layer" data-animation="fadeInUp">
-													<p class="semibold text-uppercase grey"> Our factory in Colorado is producing </p>
+													<p class="semibold text-uppercase grey"> <?php echo $this->lang->line('banner_heading_one');?> </p>
 												</div>
 												<div class="intro-layer" data-animation="fadeInUp">
-													<h2>Recreational &amp; Medical Marijuana...</h2>
+													<h2><?php echo $this->lang->line('banner_heading_four');?> </h2>
 												</div>
 												<div class="intro-layer" data-animation="fadeInUp">
 													<div class="slide_buttons"> <a href="contact.html" class="theme_button color4 min_width_button">Buy now</a> </div>

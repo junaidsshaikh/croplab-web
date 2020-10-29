@@ -67,6 +67,12 @@
 		-->
 		</div>
 	</div>
+    <?php
+    	$uri=$this->uri->segment(1);
+		   if($uri==""){
+		   	$uri="english";
+		   }
+     ?>
 	<!-- eof .modal -->
 	<!-- wrappers for visual page editor and boxed version of template -->
 	<div id="canvas">
@@ -91,10 +97,10 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="col-sm-3 col-lg-3 text-center text-sm-right"><a href="contacts.html" class="theme_button color3 block_button margin_0">Request a call back free</a></div>
+                        <div class="col-sm-3 col-lg-3 text-center text-sm-right"><a href="<?php echo base_url()?><?php echo $uri?>/contact" class="theme_button color3 block_button margin_0"><?php echo $this->lang->line('request_call');?> </a></div>
                         <!--<div class="col-sm-2 col-lg-2 text-center"><a href="<?php echo base_url();?>English/home">English</a> <a href="<?php echo base_url();?>Hindi/home">Hindi</a> <a href="<?php echo base_url();?>Marathi/home">Marathi</a> <a href="<?php echo base_url();?>Gujarati/home">Gujarati</a></div>-->
                         <div class="col-sm-2 col-lg-2 text-center">
-                            <select onchange="location = this.value;" class="style_dropdown">
+                            <select onChange="location = this.value;" class="style_dropdown">
                                 <option>Language</option>
                                 <option value="<?php echo base_url();?>en/home">English</option>
                                 <option value="<?php echo base_url();?>hi/home">Hindi</option>
@@ -120,12 +126,7 @@
 								<!-- main nav start -->
 								<nav class="mainmenu_wrapper">
                                     <ul class="mainmenu nav sf-menu">
-                                        <?php
-                                            $uri=$this->uri->segment(1);
-                                            if($uri==""){
-                                                $uri="english";
-                                            }
-                                        ?>
+                                        
                                         <li class="active">
                                             <a href="<?php echo base_url()?><?php echo $uri?>/home"><?php echo $this->lang->line('menu_link_home')?></a>
                                         </li>
