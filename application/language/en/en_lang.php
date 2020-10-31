@@ -14,6 +14,9 @@ $lang['menu_link_portfolio']						= "Portfolio";
 $lang['menu_link_services']							= "Services";
 $lang['menu_link_testimonials']						= "Testimonials";
 $lang['menu_link_downloads']						= "Downloads";
+$lang['menu_link_downloads_plant_report']			= "Plant Report";
+$lang['menu_link_downloads_soil_report']			= "Soil Report";
+$lang['menu_link_downloads_water_report']			= "Water Report";
 $lang['menu_link_contact']							= "Contact Us";
 
 /*Home Section starts*/

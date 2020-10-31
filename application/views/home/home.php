@@ -68,7 +68,7 @@
 													<p class="semibold text-uppercase grey"> <?php echo $this->lang->line('banner_heading_one');?> </p>
 												</div>
 												<div class="intro-layer" data-animation="fadeInUp">
-													<h2><?php echo $this->lang->line('banner_heading_four');?>banner_card_title_one </h2>
+													<h2><?php echo $this->lang->line('banner_heading_four');?></h2>
 												</div>
 											</div>
 											<!-- eof .slide_description -->

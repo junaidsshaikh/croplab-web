@@ -57,7 +57,12 @@ $route['(:any)/sampling']='sampling/sampling';
 $route['(:any)/services']='services/services';
 $route['(:any)/testimonials']='testimonials/testimonials';
 $route['(:any)/downloads']='downloads/downloads';
+$route['(:any)/report/plant']='downloads/downloads/report';
+$route['(:any)/report/soil']='downloads/downloads/report';
+$route['(:any)/report/water']='downloads/downloads/report';
 $route['(:any)/contact']='contact/contact';
+
+
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

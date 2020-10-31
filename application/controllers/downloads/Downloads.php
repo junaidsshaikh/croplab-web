@@ -26,4 +26,12 @@ class Downloads extends MY_Controller {
 		$this->load->view('innerpages/template', $data);
 		
 	}
+	public function report()
+	{	
+		$data['uri']			=$this->uri->segment(3);
+		$data['content_title'] 	= "About";	// page title
+		$data['main_content'] 	= 'downloads/report_view';	// page
+		$this->load->view('innerpages/template', $data);
+		
+	}
 }

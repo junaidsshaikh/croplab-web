@@ -148,7 +148,12 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="<?php echo base_url()?><?php echo $uri?>/downloads"><?php echo $this->lang->line('menu_link_downloads')?></a>
+                                            <a href="#"><?php echo $this->lang->line('menu_link_downloads')?></a>
+                                            <ul>
+                                                <li><a href="<?php echo base_url()?><?php echo $uri?>/report/plant"><?php echo $this->lang->line('menu_link_downloads_plant_report')?></a></li>
+                                                <li><a href="<?php echo base_url()?><?php echo $uri?>/report/soil"><?php echo $this->lang->line('menu_link_downloads_soil_report')?></a></li>
+                                                <li><a href="<?php echo base_url()?><?php echo $uri?>/report/water"><?php echo $this->lang->line('menu_link_downloads_water_report')?></a></li>
+                                            </ul>
                                         </li>
                                         <li>
                                             <a href="<?php echo base_url()?><?php echo $uri?>/contact"><?php echo $this->lang->line('menu_link_contact')?></a>
