@@ -128,21 +128,20 @@
 							<h2 class="section_header"><?php echo $this->lang->line('question_heading');?></h2>
 						</div>
 						<div class="col-md-6 col-sm-8">
-							<p class="bold grey">We are a Marijuana Dispensary - Family Owned &amp; Operated Tier III Producer &amp; Processor located Colorado. </p>
-							<p>From seed to sale, we take pride in our cannabis to ensure a smooth experience with attention to detail and quality. We have established ourselves along various points in the cannabis, industrial hemp, and related services supply chain and related
-								services supply chain.</p>
+							<p class="bold grey"><?php echo $this->lang->line('info_heading');?></p>
+							<p><?php echo $this->lang->line('info_description');?></p>
 						</div>
 						<div class="col-md-3 col-sm-4">
 							<div class="person_bio">
-								<div class="avatar"> <img src="<?php echo base_url();?>assets/images/faces/01.jpg" alt=""> </div>
-								<div class="person_name grey"> Carlos Lawson </div> <span class="small-text highlight4">
-						Founder of factory
+								<div class="avatar"> <img src="<?php echo base_url();?>assetsttt/images/faces/01.jpg" alt=""> </div>
+								<div class="person_name grey"> <?php echo $this->lang->line('founder_name');?> </div> <span class="small-text highlight4">
+						<?php echo $this->lang->line('founder_line');?>
 					</span> </div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section id="products" class="ds parallax page_shop section_padding_top_150 section_padding_bottom_150">
+			<!--<section id="products" class="ds parallax page_shop section_padding_top_150 section_padding_bottom_150">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-3 col-sm-4"> <span class="small-text big highlight4">
@@ -243,7 +242,7 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section>-->
 			<section id="technologies" class="ls section_padding_top_150 section_padding_bottom_150 columns_margin_bottom_40">
 				<div class="container">
 					<div class="row">
@@ -320,7 +319,7 @@
 					</div>
 				</div>
 			</section>
-			<section id="blog" class="ds parallax page_blog section_padding_top_150 section_padding_bottom_130 columns_margin_bottom_30 columns_padding_25">
+			<!--<section id="blog" class="ds parallax page_blog section_padding_top_150 section_padding_bottom_130 columns_margin_bottom_30 columns_padding_25">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-3"> <span class="small-text big highlight">
@@ -459,8 +458,8 @@
 						</div>
 					</div>
 				</div>
-			</section>
-			<section id="testimonials" class="ls section_padding_top_150 section_padding_bottom_150">
+			</section>-->
+			<!--<section id="testimonials" class="ls section_padding_top_150 section_padding_bottom_150">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-3 col-sm-4"> <span class="small-text big highlight2">
@@ -536,14 +535,13 @@
 						</div>
 					</div>
 				</div>
-			</section>
-			<section class="ls page_map" data-address="29-32 Portland Pl South Yarra VIC 3141 Australia">
-				<!-- marker description and marker icon goes here -->
+			</section>-->
+			<!--<section class="ls page_map" data-address="29-32 Portland Pl South Yarra VIC 3141 Australia">
 				<div class="map_marker_description">
 					<h3>Map Title</h3>
 					<p>Map description text</p> <img src="<?php echo base_url();?>assets/images/map_marker_icon.png" alt="" class="map_marker_icon"> </div>
-			</section>
-			<section id="subscribe" class="cs main_color2 background_cover overlay_color page_subscribe section_padding_top_75 section_padding_bottom_75 table_section table_section_lg">
+			</section>-->
+			<!--<section id="subscribe" class="cs main_color2 background_cover overlay_color page_subscribe section_padding_top_75 section_padding_bottom_75 table_section table_section_lg">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-lg-3 text-center text-md-left"> <span class="small-text big black">
@@ -571,6 +569,6 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section>-->
 			<!--Footer Start-->
             <!--Footer End-->

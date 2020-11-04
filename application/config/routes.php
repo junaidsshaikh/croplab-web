@@ -61,6 +61,7 @@ $route['(:any)/report/plant']='downloads/downloads/report';
 $route['(:any)/report/soil']='downloads/downloads/report';
 $route['(:any)/report/water']='downloads/downloads/report';
 $route['(:any)/contact']='contact/contact';
+$route['(:any)/send-feedback']='contact/contact/send_feedback';
 
 
 

@@ -70,7 +70,7 @@
     <?php
     	$uri=$this->uri->segment(1);
 		   if($uri==""){
-		   	$uri="english";
+		   	$uri="en";
 		   }
      ?>
 	<!-- eof .modal -->
@@ -81,25 +81,25 @@
 			<section class="page_topline ls ms table_section table_section_md">
 				<div class="container">
                     <div class="row">
-                        <div class="col-sm-7 col-lg-7 text-center text-sm-left">
+                        <div class="col-sm-8 col-lg-8 text-center text-sm-left">
                             <div class="inline-content big-spacing">
                                 <span>
                                     <i class="fa fa-map-marker highlight2 rightpadding_5" aria-hidden="true"></i>
-                                    123 Abshire Circle, Colorado
+                                    Jaulakedindori, Nashik, Maharashtra
                                 </span>
                                 <span class="greylinks">
                                     <i class="fa fa-pencil highlight2 rightpadding_5" aria-hidden="true"></i>
-                                    <a href="mailto:marijuana@example.com">marijuana@example.com</a>
+                                    <a href="mailto:croplabnsk@vanitaagro.com ">croplabnsk@vanitaagro.com </a>
                                 </span>
                                 <span>
                                     <i class="fa fa-clock-o highlight2 rightpadding_5" aria-hidden="true"></i>
-                                    Working Hours: 24/7
+                                    Working Hours: 9am-6pm
                                 </span>
                             </div>
                         </div>
                         <div class="col-sm-3 col-lg-3 text-center text-sm-right"><a href="<?php echo base_url()?><?php echo $uri?>/contact" class="theme_button color3 block_button margin_0"><?php echo $this->lang->line('request_call');?> </a></div>
                         <!--<div class="col-sm-2 col-lg-2 text-center"><a href="<?php echo base_url();?>English/home">English</a> <a href="<?php echo base_url();?>Hindi/home">Hindi</a> <a href="<?php echo base_url();?>Marathi/home">Marathi</a> <a href="<?php echo base_url();?>Gujarati/home">Gujarati</a></div>-->
-                        <div class="col-sm-2 col-lg-2 text-center">
+                        <div class="col-sm-1 col-lg-1 text-center">
                             <select onChange="location = this.value;" class="style_dropdown">
                                 <option>Language</option>
                                 <option value="<?php echo base_url();?>en/home">English</option>
@@ -118,8 +118,8 @@
 							<div class="header_left_logo display_table_cell"> <a href="index-2.html" class="logo logo_with_text">
                         <img src="<?php echo base_url();?>images/logo.png" alt="">
                         <span class="logo_text">
-                            Canabia
-                            <small>Colorado dispensary</small>
+                            Croplab
+                            <small>Indian Farmers Croplab</small>
                         </span>
                     </a> </div>
 							<div class="header_mainmenu display_table_cell text-right">

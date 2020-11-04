@@ -3,21 +3,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Contact extends MY_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
+	public function __construct() {
+		parent::__construct();
+		$this->load->model('Feedback_model', 'feedback');
+	}
+
 	
 	public function index()
 	{
@@ -26,4 +16,30 @@ class Contact extends MY_Controller {
 		$this->load->view('innerpages/template', $data);
 		
 	}
+	
+	public function send_feedback() {
+		
+		   
+	    $name       = $this->input->post('name');
+	    $mobile      = $this->input->post('mobile');
+	    $message    = $this->input->post('message');
+	    
+	    $data = [
+			'name'				=> $name,
+			'mobile_number'			=> $mobile,
+			'message'			=> $message,
+			'ip_address'		=> $_SERVER['SERVER_ADDR'],
+			'status'			=> "1",
+		];
+		
+		$result = $this->feedback->save($data);
+		if($result) {
+			$this->session->set_flashdata('success_message', "Your feedback is sent successfully.");
+			redirect("contact/contact");
+		} else {
+			$this->session->set_flashdata('error_message', "Something went wrong. Please try again!");
+			redirect("contact/contact");
+		}
+	}
+	
 }

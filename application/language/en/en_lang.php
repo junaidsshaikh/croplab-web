@@ -37,6 +37,13 @@ $lang['banner_card_desc_four'] 						= "We are committed to provide quality anal
 $lang['question_title'] 							= "What is Croplab?";
 $lang['question_heading'] 							= "History about Croplab";
 
+$lang['info_heading'] 								= "In 2016 work is expanded operation moved to Nashik to serve better with advanced technology";
+$lang['info_description'] 							= "Croplab we are committed to providing and quality analytical services for the agricultural industry
+													   Our extensive Quality Assurance program well qualified and trained staff and advanced instrument which provide the best 				                                                       services to our clients";
+													   
+$lang['founder_name'] 								= "Mr. Netaji Pawar ";													  
+$lang['founder_line'] 								= "Founder of Croplab";														   
+
 /*About Us Section starts*/
 $lang['heading_about_us'] 							= "About Us English";
 
