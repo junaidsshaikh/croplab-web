@@ -45,7 +45,7 @@ $lang['founder_name'] 								= "Mr. Netaji Pawar ";
 $lang['founder_line'] 								= "Founder of Croplab";														   
 
 /*About Us Section starts*/
-$lang['heading_about_us'] 							= "About Us English";
+$lang['heading_about_us'] 							= "About Us";
 
 /*Sampling Section starts*/
 $lang['sampling_heading'] 							= "Sampling English";

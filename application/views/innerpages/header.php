@@ -7,7 +7,7 @@
 <!--<![endif]-->
 
 <head>
-	<title>Canabia</title>
+	<title>Vanita Agro CropLab</title>
 	<meta charset="utf-8">
 	<!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,6 +21,7 @@
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/main.css" class="color-switcher-link">
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/shop.css" class="color-switcher-link">
 	<script src="<?php echo base_url();?>assets/js/vendor/modernizr-2.6.2.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<!--[if lt IE 9]>
 		<script src="js/vendor/html5shiv.min.js"></script>
 		<script src="js/vendor/respond.min.js"></script>
@@ -127,27 +128,27 @@
 								<nav class="mainmenu_wrapper">
                                     <ul class="mainmenu nav sf-menu">
                                         
-                                        <li class="active">
+                                        <li <?php if($this->uri->segment(2)=="home"){?>class="active"<?php }?>>
                                             <a href="<?php echo base_url()?><?php echo $uri?>/home"><?php echo $this->lang->line('menu_link_home')?></a>
                                         </li>
-                                        <li>
+                                        <li <?php if($this->uri->segment(2)=="about"){?>class="active"<?php }?>>
                                             <a href="<?php echo base_url()?><?php echo $uri?>/about"><?php echo $this->lang->line('menu_link_about_us')?></a>
                                         </li>
                                         <!-- eof pages -->
-                                        <li>
+                                        <li <?php if($this->uri->segment(2)=="gallary"){?>class="active"<?php }?>>
                                             <a href="<?php echo base_url()?><?php echo $uri?>/gallary"><?php echo $this->lang->line('menu_link_gallary')?></a>
                                         </li>
-                                        <li>
+                                        <li <?php if($this->uri->segment(2)=="sampling"){?>class="active"<?php }?>>
                                             <a href="<?php echo base_url()?><?php echo $uri?>/sampling"><?php echo $this->lang->line('menu_link_sampling')?></a>
                                         </li>
-                                        <li>
+                                        <li <?php if($this->uri->segment(2)=="services" or $this->uri->segment(2)=="testimonials"){?>class="active"<?php }?>>
                                             <a href="#"><?php echo $this->lang->line('menu_link_portfolio')?></a>
                                             <ul>
                                                 <li><a href="<?php echo base_url()?><?php echo $uri?>/services"><?php echo $this->lang->line('menu_link_services')?></a></li>
                                                 <li><a href="<?php echo base_url()?><?php echo $uri?>/testimonials"><?php echo $this->lang->line('menu_link_testimonials')?></a></li>
                                             </ul>
                                         </li>
-                                        <li>
+                                        <li <?php if($this->uri->segment(2)=="report"){?>class="active"<?php }?>>
                                             <a href="#"><?php echo $this->lang->line('menu_link_downloads')?></a>
                                             <ul>
                                                 <li><a href="<?php echo base_url()?><?php echo $uri?>/report/plant"><?php echo $this->lang->line('menu_link_downloads_plant_report')?></a></li>
@@ -155,7 +156,7 @@
                                                 <li><a href="<?php echo base_url()?><?php echo $uri?>/report/water"><?php echo $this->lang->line('menu_link_downloads_water_report')?></a></li>
                                             </ul>
                                         </li>
-                                        <li>
+                                        <li <?php if($this->uri->segment(2)=="contact"){?>class="active"<?php }?>>
                                             <a href="<?php echo base_url()?><?php echo $uri?>/contact"><?php echo $this->lang->line('menu_link_contact')?></a>
                                             <!-- eof mega menu -->
                                         </li>

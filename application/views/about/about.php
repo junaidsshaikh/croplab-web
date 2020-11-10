@@ -3,15 +3,7 @@
         <div class="row">
             <div class="col-sm-12 text-center">
                 <h2><?php echo $this->lang->line('heading_about_us');?></h2>
-                <ol class="breadcrumb greylinks color4">
-                    <li>
-                        <a href="index-2.html">
-                            Home
-                        </a>
-                    </li>
-                    <li><a href="#">Pages</a></li>
-                    <li class="active">About</li>
-                </ol>
+                
             </div>
         </div>
     </div>
@@ -31,29 +23,29 @@
             <div class="col-md-3 col-sm-6">
                 <div class="teaser top_offset_icon main_bg_color rounded text-center">
                     <div class="teaser_icon size_small round main_bg_color"><i class="fa fa-globe" aria-hidden="true"></i></div>
-                    <h4 class="topmargin_0"><a href="#">Green House</a></h4>
-                    <p class="content-3lines-ellipsis">«Our cannabis is greenhouse grown with love.»</p>
+                    <h4 class="topmargin_0"><a href="#"><?php echo $this->lang->line('banner_card_title_one');?></a></h4>
+                    <p class="content-3lines-ellipsis"><?php echo $this->lang->line('banner_card_desc_one');?></p>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="teaser top_offset_icon main_bg_color2 rounded text-center">
-                    <div class="teaser_icon size_small round main_bg_color2"><i class="fa fa-plug" aria-hidden="true"></i></div>
-                    <h4 class="topmargin_0"><a href="#">Solar Energy</a></h4>
-                    <p class="content-3lines-ellipsis">«What better source of energy than the sun itself.»</p>
+                    <div class="teaser_icon size_small round main_bg_color2"><i class="fa fa-leaf" aria-hidden="true"></i></div>
+                    <h4 class="topmargin_0"><a href="#"><?php echo $this->lang->line('banner_card_title_two');?></a></h4>
+                    <p class="content-3lines-ellipsis"><?php echo $this->lang->line('banner_card_desc_two');?></p>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="teaser top_offset_icon main_bg_color3 rounded text-center">
-                    <div class="teaser_icon size_small round main_bg_color3"><i class="fa fa-leaf" aria-hidden="true"></i></div>
-                    <h4 class="topmargin_0"><a href="#">Sustainable</a></h4>
-                    <p class="content-3lines-ellipsis">«Low carbon footprint,-Thats why we buy local, reuse.»</p>
+                    <div class="teaser_icon size_small round main_bg_color3"><i class="fa fa-flask" aria-hidden="true"></i></div>
+                    <h4 class="topmargin_0"><a href="#"><?php echo $this->lang->line('banner_card_title_three');?></a></h4>
+                    <p class="content-3lines-ellipsis"><?php echo $this->lang->line('banner_card_desc_three');?></p>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="teaser top_offset_icon main_bg_color4 rounded text-center">
                     <div class="teaser_icon size_small round main_bg_color4"><i class="fa fa-users" aria-hidden="true"></i></div>
-                    <h4 class="topmargin_0"><a href="#">Connoisseurs</a></h4>
-                    <p class="content-3lines-ellipsis">«We are a big family of perfect cannabis connoisseurs.»</p>
+                    <h4 class="topmargin_0"><a href="#"><?php echo $this->lang->line('banner_card_title_four');?></a></h4>
+                    <p class="content-3lines-ellipsis"><?php echo $this->lang->line('banner_card_desc_four');?></p>
                 </div>
             </div>
         </div>
@@ -64,23 +56,22 @@
         <div class="row">
             <div class="col-md-3 col-sm-12">
                 <span class="small-text big highlight4">
-                    Who is marijuana factory?
+                    <?php echo $this->lang->line('question_title');?>
                 </span>
-                <h2 class="section_header">History About Factory</h2>
+                <h2 class="section_header"><?php echo $this->lang->line('question_heading');?></h2>
             </div>
             <div class="col-md-6 col-sm-8">
-                <p class="bold grey">We are a Marijuana Dispensary - Family Owned &amp; Operated Tier III Producer &amp; Processor located Colorado.</p>
+                <p class="bold grey"><?php echo $this->lang->line('info_heading');?></p>
                 <p>
-                    From seed to sale, we take pride in our cannabis to ensure a smooth experience with attention to detail and quality. We have established ourselves along various points in the cannabis, industrial hemp, and related
-                    services supply chain and related services supply chain.
+                    <?php echo $this->lang->line('info_description');?>
                 </p>
             </div>
             <div class="col-md-3 col-sm-4">
                 <div class="person_bio">
                     <div class="avatar"><img src="images/faces/01.jpg" alt="" /></div>
-                    <div class="person_name grey">Carlos Lawson</div>
+                    <div class="person_name grey"><?php echo $this->lang->line('founder_name');?> </div>
                     <span class="small-text highlight4">
-                        Founder of factory
+                        <?php echo $this->lang->line('founder_line');?>
                     </span>
                 </div>
             </div>

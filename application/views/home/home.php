@@ -104,7 +104,7 @@
 						</div>
 						<div class="col-md-3 col-sm-6 to_animate no_appear_delay" data-animation="fadeInDown" data-delay="300">
 							<div class="teaser top_offset_icon main_bg_color3 rounded text-center">
-								<div class="teaser_icon size_small round main_bg_color3"> <i class="fa fa-leaf" aria-hidden="true"></i> </div>
+								<div class="teaser_icon size_small round main_bg_color3"> <i class="fa fa-flask" aria-hidden="true"></i> </div>
 								<h4 class="topmargin_0"> <a href="#"><?php echo $this->lang->line('banner_card_title_three');?></a> </h4>
 								<p class="content-3lines-ellipsis"><?php echo $this->lang->line('banner_card_desc_three');?></p>
 							</div>
