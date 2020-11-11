@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Gallary extends MY_Controller {
+class Gallery extends MY_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -22,7 +22,7 @@ class Gallary extends MY_Controller {
 	public function index()
 	{
 		$data['content_title'] 	= "About";	// page title
-		$data['main_content'] 	= 'gallary/gallary';	// page
+		$data['main_content'] 	= 'gallery/gallery';	// page
 		$this->load->view('innerpages/template', $data);
 		
 	}

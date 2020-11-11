@@ -5,11 +5,10 @@
                 <h2><?php echo $this->lang->line('contact_us_heading');?></h2>
                 <ol class="breadcrumb greylinks color4">
                     <li>
-                        <a href="index-2.html">
+                        <a href="<?php echo base_url().$this->uri->segment(1);?>/home">
                             Home
                         </a>
                     </li>
-                    <li><a href="#">Pages</a></li>
                     <li class="active"><?php echo $this->lang->line('contact_us_heading');?></li>
                 </ol>
             </div>
@@ -57,6 +56,32 @@ Jaulakedindori, Nashik, Maharashtra, 422206
         </div>-->
         <div class="row topmargin_40">
             <div class="col-sm-6 to_animate">
+            	<div class="col-sm-12 to_animate" data-animation="pullDown">
+                    <div class="teaser text-center">
+                        <div class="teaser_icon highlight size_normal"><i class="rt-icon2-phone5"></i></div>
+                        <p>
+                            <span class="grey">Phone:</span> 968 944 1133<br />
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 to_animate" data-animation="pullDown">
+                    <div class="teaser text-center">
+                        <div class="teaser_icon highlight size_normal"><i class="rt-icon2-location2"></i></div>
+                        <p>
+                            Vanita Agrochem (I) Pvt. Ltd Nashik Lab
+    Jaulakedindori, Nashik, Maharashtra, 422206
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 to_animate" data-animation="pullDown">
+                    <div class="teaser text-center">
+                        <div class="teaser_icon highlight size_normal"><i class="rt-icon2-mail"></i></div>
+                        <p><a href="mailto:croplabnsk@vanitaagro.com ">croplabnsk@vanitaagro.com </a></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-6 to_animate">
             			<?php 
 							/*if($message = $this->session->flashdata('error_message')) {
 								showErrorMessage($message);
@@ -87,31 +112,7 @@ Jaulakedindori, Nashik, Maharashtra, 422206
                     </div>
                 </form>
             </div>
-            <div class="col-sm-6 to_animate">
-            	<div class="col-sm-12 to_animate" data-animation="pullDown">
-                    <div class="teaser text-center">
-                        <div class="teaser_icon highlight size_normal"><i class="rt-icon2-phone5"></i></div>
-                        <p>
-                            <span class="grey">Phone:</span> 968 944 1133<br />
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-12 to_animate" data-animation="pullDown">
-                    <div class="teaser text-center">
-                        <div class="teaser_icon highlight size_normal"><i class="rt-icon2-location2"></i></div>
-                        <p>
-                            Vanita Agrochem (I) Pvt. Ltd Nashik Lab
-    Jaulakedindori, Nashik, Maharashtra, 422206
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-12 to_animate" data-animation="pullDown">
-                    <div class="teaser text-center">
-                        <div class="teaser_icon highlight size_normal"><i class="rt-icon2-mail"></i></div>
-                        <p><a href="mailto:croplabnsk@vanitaagro.com ">croplabnsk@vanitaagro.com </a></p>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
 </section>

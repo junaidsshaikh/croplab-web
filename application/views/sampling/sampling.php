@@ -5,11 +5,10 @@
                 <h2><?php echo $this->lang->line('sampling_heading');?></h2>
                 <ol class="breadcrumb greylinks color4">
                     <li>
-                        <a href="index-2.html">
+                        <a href="<?php echo base_url().$this->uri->segment(1);?>/home">
                             Home
                         </a>
                     </li>
-                    <li><a href="#">Pages</a></li>
                     <li class="active"><?php echo $this->lang->line('sampling_heading');?></li>
                 </ol>
             </div>

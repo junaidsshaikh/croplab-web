@@ -5,11 +5,10 @@
                 <h2>Testimonials</h2>
                 <ol class="breadcrumb greylinks color4">
                     <li>
-                        <a href="index-2.html">
+                        <a href="<?php echo base_url().$this->uri->segment(1);?>/home">
                             Testimonials
                         </a>
                     </li>
-                    <li><a href="#">Pages</a></li>
                     <li class="active">Testimonials</li>
                 </ol>
             </div>

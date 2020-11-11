@@ -102,11 +102,10 @@
                         <!--<div class="col-sm-2 col-lg-2 text-center"><a href="<?php echo base_url();?>English/home">English</a> <a href="<?php echo base_url();?>Hindi/home">Hindi</a> <a href="<?php echo base_url();?>Marathi/home">Marathi</a> <a href="<?php echo base_url();?>Gujarati/home">Gujarati</a></div>-->
                         <div class="col-sm-1 col-lg-1 text-center">
                             <select onChange="location = this.value;" class="style_dropdown">
-                                <option>Language</option>
-                                <option value="<?php echo base_url();?>en/home">English</option>
-                                <option value="<?php echo base_url();?>hi/home">Hindi</option>
-                                <option value="<?php echo base_url();?>mr/home">Marathi</option>
-                                <option value="<?php echo base_url();?>gu/home">Gujarati</option>
+                                <option value="<?php echo base_url();?>en/home" <?php if($uri=='en'){?>selected<?php }?>>English</option>
+                                <option value="<?php echo base_url();?>hi/home" <?php if($uri=='hi'){?>selected<?php }?>>हिंदी</option>
+                                <option value="<?php echo base_url();?>mr/home" <?php if($uri=='mr'){?>selected<?php }?>>मराठी</option>
+                                <option value="<?php echo base_url();?>gu/home" <?php if($uri=='gu'){?>selected<?php }?>>ગુજરાતી</option>
                             </select>	
                         </div>
                     </div>
@@ -116,7 +115,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 display_table">
-							<div class="header_left_logo display_table_cell"> <a href="index-2.html" class="logo logo_with_text">
+							<div class="header_left_logo display_table_cell"> <a href="<?php echo base_url();?>" class="logo logo_with_text">
                         <img src="<?php echo base_url();?>images/logo.png" alt="">
                         <span class="logo_text">
                             Croplab
@@ -136,7 +135,7 @@
                                         </li>
                                         <!-- eof pages -->
                                         <li <?php if($this->uri->segment(2)=="gallary"){?>class="active"<?php }?>>
-                                            <a href="<?php echo base_url()?><?php echo $uri?>/gallary"><?php echo $this->lang->line('menu_link_gallary')?></a>
+                                            <a href="<?php echo base_url()?><?php echo $uri?>/gallery"><?php echo $this->lang->line('menu_link_gallary')?></a>
                                         </li>
                                         <li <?php if($this->uri->segment(2)=="sampling"){?>class="active"<?php }?>>
                                             <a href="<?php echo base_url()?><?php echo $uri?>/sampling"><?php echo $this->lang->line('menu_link_sampling')?></a>

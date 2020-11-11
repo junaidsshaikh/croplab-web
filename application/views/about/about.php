@@ -3,7 +3,14 @@
         <div class="row">
             <div class="col-sm-12 text-center">
                 <h2><?php echo $this->lang->line('heading_about_us');?></h2>
-                
+                <ol class="breadcrumb greylinks color4">
+                    <li>
+                        <a href="<?php echo base_url().$this->uri->segment(1);?>/home">
+                            Home
+                        </a>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                </ol>
             </div>
         </div>
     </div>

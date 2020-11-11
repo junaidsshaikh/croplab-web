@@ -5,12 +5,11 @@
                 <h2>Gallery Tile</h2>
                 <ol class="breadcrumb greylinks color4">
                     <li>
-                        <a href="index-2.html">
+                        <a href="<?php echo base_url().$this->uri->segment(1);?>/home">
                             Home
                         </a>
                     </li>
                     <li><a href="#">Gallery</a></li>
-                    <li class="active">Gallery Tile</li>
                 </ol>
             </div>
         </div>
